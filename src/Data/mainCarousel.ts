@@ -1,0 +1,35 @@
+export const homeCarouselData = [
+    {
+        image:"https://www.samyakk.com/blog/wp-content/uploads/2024/01/Friday-Template-cutting_01.jpg",
+        path:"Data/Women/women_saree"
+    },
+    {
+        image:"https://www.aachho.com/cdn/shop/files/Banner-8_c9e0d63d-49ca-4a59-ae3e-6960a9013f00.jpg?v=1772799568&width=1500",
+        path:"/women/clothing/women_dress"
+    },
+    {
+        image:"https://zola.in/cdn/shop/articles/jeggings_banner.jpg?v=1685606239",
+        path:"/women/clothing/women_dress"
+    },
+    {
+        image:"https://shreeman.in/cdn/shop/files/image_38d831ed-831e-4c6b-b05d-50e80d2d1112.png?v=1766745307&width=1800",
+        path:"/men/clothing/men_dress"
+    },
+    {
+        image:"https://unimoda.co.in/cdn/shop/files/2_f71b5e25-62fe-4ca6-9f9f-d7c686874928.png?v=1773911036&width=3840",
+        path:"/women/clothing/women_dress"
+    },
+    {
+        image:"https://ontobyaanchal.com/cdn/shop/articles/Latest_Western_Dresses_in_Fashion.webp?v=1780749540",
+        path:"/women/clothing/women_dress"
+    },
+    {
+        image:"https://unimoda.co.in/cdn/shop/files/1_563251b0-a377-4943-affb-149565df542a.png?v=1773911121&width=3840",
+        path:"/women/clothing/women_dress"
+    },
+    {
+        image:"https://shreeman.in/cdn/shop/files/mens_-_desktop_copy_2.jpg?v=1699271099&width=3200",
+        path:"/men/clothing/men_dress"
+    }
+    
+]
