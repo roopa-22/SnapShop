@@ -5,7 +5,10 @@
         class="flex flex-col"
         *ngFor="let item of category[selectedSection].sections">
         <h2 class="text center">{{ item.name }}</h2>
-        <button *ngFor = "let section of item.items">
+        <button mat-raised-button 
+            class="!bg-black !text-white"
+            (click)="handleNavigate('/'+selectedSection+'/'+item.id+'/'+section.id)" 
+            *ngFor = "let section of item.items">
           {{section.name}}
         </button>
       </div>
