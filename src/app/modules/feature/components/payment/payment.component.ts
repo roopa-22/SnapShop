@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './payment.component.scss'
 })
 export class PaymentComponent {
+   products=[1,1,1,1,1]
+   
 
 }

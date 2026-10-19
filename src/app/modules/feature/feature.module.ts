@@ -11,7 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatIcon, MatIconModule } from '@angular/material/icon';
 import { MatCheckboxModule } from '@angular/material/checkbox';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatRadioModule } from '@angular/material/radio';
 import { SharedModule } from '../shared/shared.module';
 import { CartComponent } from './components/cart/cart.component';
@@ -21,6 +21,12 @@ import { PaymentComponent } from './components/payment/payment.component';
 import { PaymentSuccessComponent } from './components/payment-success/payment-success.component';
 import { OrderComponent } from './components/order/order.component';
 import { OrderDetailsComponent } from './components/order-details/order-details.component';
+import { ProductReviewCardComponent } from './components/product-details/product-review-card/product-review-card.component';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { AddressFormComponent } from './components/checkout/address-form/address-form.component'
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { OrderCardComponent } from './components/order/order-card/order-card.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +42,10 @@ import { OrderDetailsComponent } from './components/order-details/order-details.
     PaymentComponent,
     PaymentSuccessComponent,
     OrderComponent,
-    OrderDetailsComponent
+    OrderDetailsComponent,
+    ProductReviewCardComponent,
+    AddressFormComponent,
+    OrderCardComponent
   ],
   imports: [
     CommonModule,
@@ -48,7 +57,11 @@ import { OrderDetailsComponent } from './components/order-details/order-details.
     MatCheckboxModule,
     FormsModule,
     MatRadioModule,
-    SharedModule
+    SharedModule,
+    MatProgressBarModule,
+    MatFormFieldModule,
+    MatInputModule,
+    ReactiveFormsModule
 ],
   exports : [
     FeatureComponent,

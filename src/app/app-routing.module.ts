@@ -12,6 +12,7 @@ import { OrderDetailsComponent } from './modules/feature/components/order-detail
 import { AdminRoutingModule } from './modules/admin/admin-routing.module';
 
 const routes: Routes = [
+  {path:"admin",loadChildren:()=>import("./modules/admin/admin-routing.module").then(m => AdminRoutingModule)},
   {path:"",component:HomeComponent},
   {path:"cart",component:CartComponent},
   {path:"product-details/:id",component:ProductDetailsComponent},
@@ -20,8 +21,8 @@ const routes: Routes = [
   {path:':lavelOne/:lavelTwo/:lavelThree',component:CategoryProductComponent},
   {path:"payment-success",component:PaymentSuccessComponent},
   {path:"account/orders",component:OrderComponent},
-  {path:"order/:id",component:OrderDetailsComponent},
-  {path:"admin",loadChildren:()=>import("./modules/admin/admin-routing.module").then(m => AdminRoutingModule)}
+  {path:"order/:id",component:OrderDetailsComponent}
+ 
 ];
 
 @NgModule({

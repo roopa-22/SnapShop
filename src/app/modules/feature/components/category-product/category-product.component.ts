@@ -35,7 +35,7 @@ export class CategoryProductComponent {
       else {
         filterValues.push(value);
       }
-
+ 
       if(filterValues.length > 0) {
         queryParams[sectionId]=filterValues.join(",")
       }
@@ -54,5 +54,6 @@ export class CategoryProductComponent {
 
       console.log(queryParams)
     }
-
+     
+   
 }

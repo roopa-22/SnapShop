@@ -6,7 +6,8 @@ export const womensareeData=[
         "color": "Pink",
         "selling_price": "₹789",
         "price": "₹3,999",
-        "disscount": "80% off"
+        "disscount": "80% off",
+        "id":"123"
     },
     {
         "imageUrl": "https://sudathi.com/cdn/shop/files/4389S1974_1.jpg?v=1765520456&width=1100",
